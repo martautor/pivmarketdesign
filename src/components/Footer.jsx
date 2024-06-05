@@ -11,9 +11,10 @@ const darkTheme = createTheme({
 
 export default function Footer() {
     return (<ThemeProvider theme={darkTheme}>
-        <AppBar position="static" color="primary" sx={{
+        <AppBar color="primary" sx={{
             width: '100vw',
-            position: 'fixed',
+            position: 'relative',
+            top: '90px',
             bottom: '0px',
             left: '0px'
         }}>

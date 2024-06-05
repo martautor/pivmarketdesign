@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <Box component='div'>
+    <Box component='div' >
       <Header/>
       <Content/>
       <Footer/>
