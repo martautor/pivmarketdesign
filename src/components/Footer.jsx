@@ -1,6 +1,6 @@
 import { ThemeProvider } from "@emotion/react";
-import { AppBar, Box, Link, Toolbar, Typography, createTheme } from "@mui/material";
-import { brown, grey } from "@mui/material/colors";
+import { AppBar, Link, Toolbar, Typography, createTheme } from "@mui/material";
+import { grey } from "@mui/material/colors";
 const darkTheme = createTheme({
     palette: {
       primary: {
@@ -15,8 +15,7 @@ export default function Footer() {
             width: '100vw',
             position: 'relative',
             top: '90px',
-            bottom: '0px',
-            left: '0px'
+            bottom: '0px'
         }}>
           <Toolbar sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center'}}>
           <Typography variant="h7" component='div' sx={{mt: 2, mb: 1}}>

@@ -1,6 +1,5 @@
 import { ThemeProvider } from "@emotion/react";
 import { AppBar, Box, IconButton, Toolbar, Typography, createTheme } from "@mui/material";
-import { brown } from "@mui/material/colors";
 import logo from '../img/logo.png'
 const darkTheme = createTheme({
     palette: {
@@ -12,7 +11,7 @@ const darkTheme = createTheme({
 
 export default function Header() {
     return (<ThemeProvider theme={darkTheme}>
-        <AppBar position="static" color="primary">
+        <AppBar position="static" color="primary" sx={{width: '100vw'}}>
           <Toolbar sx={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
             <IconButton>
                 <img src={logo} alt="logo" style={{width: 100}}/>
