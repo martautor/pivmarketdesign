@@ -11,11 +11,10 @@ const darkTheme = createTheme({
 
 export default function Footer() {
     return (<ThemeProvider theme={darkTheme}>
-        <AppBar color="primary" sx={{
-            width: '100vw',
-            position: 'relative',
-            top: '90px',
-            bottom: '0px'
+        <AppBar position="static" color="primary" sx={{
+            position: 'absolute',
+            bottom: '0px',
+            left: '0px'
         }}>
           <Toolbar sx={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignContent: 'center', alignItems: 'center'}}>
           <Typography variant="h7" component='div' sx={{mt: 2, mb: 1}}>

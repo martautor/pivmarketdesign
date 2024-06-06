@@ -14,10 +14,10 @@ export default function Header() {
         <AppBar position="static" color="primary" sx={{width: '100vw'}}>
           <Toolbar sx={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
             <IconButton>
-                <img src={logo} alt="logo" style={{width: 100}}/>
+                <img src={logo} alt="logo" style={{width: 75}}/>
             </IconButton>
-            <Box sx={{m: 3}}>
-            <Typography variant="h4" >
+            <Box sx={{m: 2}}>
+            <Typography variant="span" sx={{fontSize: '30px'}} >
                 ПИВМАРКЕТ №1
             </Typography>
             </Box>
